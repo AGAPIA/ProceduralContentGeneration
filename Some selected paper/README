@@ -1,0 +1,23 @@
+Objective: generate a procedural city
+ - roads structure must be learned from real cities using google maps.
+
+Check: https://www.youtube.com/watch?v=ZTNtu5bnfK0
+
+
+L SYSTEMs
+------------
+
+https://gamedev.stackexchange.com/questions/86234/using-l-systems-to-procedurally-generate-cities
+
+Read https://www.cs.ru.nl/bachelors-theses/2017/Thijs_Voncken___4223845___Procedural-maze-generation-an-L-System-based-approach.pdf
+
+From procedural cities review - read the Road Network generation specially, and from references check all paper that are taking care of this. 
+
+Computer vision part:
+----------------------
+Learn an L system grammar from google maps pictures
+
+1. Identify streets in a picture
+   - identify hierarchy of streets by width
+   - construct a L system grammar to match these. Imagine that transitions will also have
+intervals of distance on them.
